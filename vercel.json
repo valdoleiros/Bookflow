@@ -1,0 +1,7 @@
+{
+  "crons": [
+    { "path": "/api/cron/notifications",  "schedule": "0 7 * * *"  },
+    { "path": "/api/cron/reminders",      "schedule": "0 8 * * *"  },
+    { "path": "/api/cron/reengagement",   "schedule": "0 10 * * *" }
+  ]
+}

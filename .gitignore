@@ -1,0 +1,25 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# env files – NEVER commit these
+.env
+.env.local
+.env*.local
+.env.production
+
+# debug scripts
+debug_login.mjs
+build_output*.log
+
+# typescript
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+.vercel
